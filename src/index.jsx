@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./index.css";
 
-const DynamicInput = ({
+const ReactDynamicInputs = ({
     onChange,
     children: CustomElement,
     defaultValues = [],
@@ -119,4 +119,4 @@ const DynamicInput = ({
     );
 };
 
-export default DynamicInput;
+export default ReactDynamicInputs;

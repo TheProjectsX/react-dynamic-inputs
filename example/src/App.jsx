@@ -1,5 +1,5 @@
 import { useState } from "react";
-import DynamicInput from "react-dynamic-inputs";
+import ReactDynamicInputs from "react-dynamic-inputs";
 
 function App() {
     const [inputValues, setInputValues] = useState([]);
@@ -16,7 +16,7 @@ function App() {
                         (Default Inputs)
                     </p>
                     <div className="flex justify-center items-center">
-                        <DynamicInput
+                        <ReactDynamicInputs
                             onChange={setInputValues}
                             defaultItems={3}
                             minItems={1}
@@ -48,7 +48,7 @@ function App() {
                         (Custom Inputs)
                     </p>
                     <div className="flex justify-center items-center">
-                        <DynamicInput
+                        <ReactDynamicInputs
                             onChange={setCustomInputValues}
                             customAddButton={
                                 <button className="py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 cursor-pointer mx-auto block disabled:pointer-events-none disabled:opacity-50">
@@ -74,7 +74,7 @@ function App() {
                                     </button>
                                 </div>
                             )}
-                        </DynamicInput>
+                        </ReactDynamicInputs>
                     </div>
                 </div>
                 <div className="">

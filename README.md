@@ -1,8 +1,6 @@
-# dynamic-inputs
+# React Dynamic Inputs Component
 
-# DynamicInput Component
-
-The `DynamicInput` component allows you to create a dynamic list of input fields where users can add or remove input items. It is highly customizable with support for a custom layout, input validation, and dynamic item addition/removal.
+The `react-dynamic-inputs` component allows you to create a dynamic list of input fields where users can add or remove input items. It is highly customizable with support for a custom layout, input validation, and dynamic item addition/removal.
 
 ## Properties
 
@@ -24,7 +22,7 @@ The `DynamicInput` component allows you to create a dynamic list of input fields
 
 ```jsx
 import React, { useState } from "react";
-import DynamicInput from "./DynamicInput";
+import DynamicInputs from "react-dynamic-inputs";
 
 const App = () => {
     const [inputValues, setInputValues] = useState([]);
@@ -35,9 +33,9 @@ const App = () => {
 
     return (
         <div>
-            <h1>Dynamic Input Example</h1>
+            <h1>Dynamic Inputs Example</h1>
 
-            <DynamicInput
+            <DynamicInputs
                 onChange={handleValuesChange}
                 defaultItems={3}
                 minItems={1}
@@ -72,7 +70,7 @@ Example of using `children`:
 
 ```jsx
 import React, { useState } from "react";
-import DynamicInput from "./DynamicInput";
+import DynamicInputs from "react-dynamic-inputs";
 
 const App = () => {
     const [inputValues, setInputValues] = useState([]);
@@ -85,7 +83,7 @@ const App = () => {
         <div>
             <h1>Dynamic Input Example</h1>
 
-            <DynamicInput
+            <DynamicInputs
                 onChange={handleValuesChange}
                 defaultItems={2}
                 minItems={1}
@@ -102,7 +100,7 @@ const App = () => {
                         </button>
                     </div>
                 )}
-            </DynamicInput>
+            </DynamicInputs>
         </div>
     );
 };

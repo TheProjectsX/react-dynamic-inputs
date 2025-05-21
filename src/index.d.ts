@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export interface DynamicInputProps {
+export interface ReactDynamicInputsProps {
     onChange: (values: string[]) => void;
     children?: (
         inputProps: {
@@ -23,5 +23,5 @@ export interface DynamicInputProps {
     customAddButton?: React.ReactElement<any, any> | null;
 }
 
-declare const DynamicInput: React.FC<DynamicInputProps>;
-export default DynamicInput;
+declare const ReactDynamicInputs: React.FC<ReactDynamicInputsProps>;
+export default ReactDynamicInputs;
