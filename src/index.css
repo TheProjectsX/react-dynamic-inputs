@@ -5,11 +5,12 @@
     flex-direction: column;
     gap: 10px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .dir__item {
-    width: fit-content;
     height: fit-content;
+    width: 100%;
 }
 
 .dir__input-group {
@@ -24,6 +25,7 @@
     padding: 8px 10px;
     border-radius: 10px;
     font-size: 0.75rem;
+    flex-grow: 1;
 }
 
 .dir__remove-btn {
@@ -35,6 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f0f0f0;
 }
 
 .dir__remove-btn:hover {
