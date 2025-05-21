@@ -1,0 +1,66 @@
+/* Dynamic Input React Component Styles */
+
+.dir__inputs-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.dir__item {
+    width: fit-content;
+    height: fit-content;
+}
+
+.dir__input-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.dir__input {
+    border: 1px solid #d1d5db;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+}
+
+.dir__remove-btn {
+    outline: none;
+    border: none;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dir__remove-btn:hover {
+    background-color: #cbd5e1;
+    color: #dc2626;
+}
+
+.dir__remove-btn:disabled {
+    pointer-events: none;
+}
+
+.dir__add-btn {
+    padding: 0.5rem 1rem;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.dir__add-btn:hover {
+    background-color: #2563eb;
+}
+
+.dir__add-btn:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
