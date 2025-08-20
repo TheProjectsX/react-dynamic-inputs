@@ -2,6 +2,10 @@
 
 The `react-dynamic-inputs` component allows you to create a dynamic list of input fields where users can add or remove input items. It is highly customizable with support for a custom layout, input validation, and dynamic item addition/removal.
 
+## 🌐 Demo
+
+Checkout [Demo of react-dynamic-inputs](https://modasser.is-a.dev/react-dynamic-inputs/)
+
 ## Properties
 
 | Property            | Type                                                                                                                                                                                                                                  | Description                                                                                                                                                                     |
